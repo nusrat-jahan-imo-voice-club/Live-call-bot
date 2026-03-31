@@ -22,7 +22,7 @@ const db = admin.database();
 // ===============================
 // 2️⃣ Telegram Bot Config
 // ===============================
-const botToken = '8226802389:AAE9B04pvV7F4vSAu0MUtSBrF4Qh4qc0VQc';
+const botToken = '8226802389:AAFihtrakoCrSJ2uXTRTDSTaXoTlqz7loA4';
 const bot = new TelegramBot(botToken, { polling: false });
 
 const ADMIN_IDS = [8271536101];
